@@ -36,7 +36,7 @@ async function processFile(inputPath, outputPath) {
     const writeStream = fs.createWriteStream(outputPath)
     /* 
      * there really isn't any other way to do this besides reading the entire
-     * file in to memory and then processing that. I would be possible to
+     * file in to memory and then process that. It would be possible to
      * re-read the file over and over, but that would take extremely long for
      * large files
      */
